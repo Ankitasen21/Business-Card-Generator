@@ -1,0 +1,117 @@
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18rem;
+    background-color: rgb(71, 71, 71);
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.114);
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.error {
+    color: rgb(255, 100, 100);
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.outer-container img {
+    width: 150px; /* Reduced width to fit better */
+    height: 150px;
+    border-radius: 5%;
+    margin-bottom: 1rem; /* Added margin for spacing */
+}
+
+.outer-container img:hover {
+    transform: scale(1.1);
+    transition: transform 0.75s;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.divider {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    width: 100%; /* Ensure it fits within the container */
+}
+
+.link-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem; /* Adjusted padding for better fit */
+    background-image: linear-gradient(150deg, #1c0f25 0%, #020a0e 100%);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    margin: 0.5rem 0; /* Added margin for spacing */
+}
+
+.link-button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.link-button:hover {
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-links {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+    flex-wrap: wrap; /* Ensure social links wrap if necessary */
+}
+
+.link-icon {
+    color: rgb(50, 50, 50);
+    transition: all 0.5s ease-in-out;
+}
+
+.link-icon:hover {
+    color: rgb(0, 0, 0);
+    transform: scale(1.25);
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.details-header{
+    font-size: 1rem;
+    font-weight: 800;
+    color: rgb(42, 42, 42);
+    margin-bottom: 0.1rem;
+}
+.details-data{
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: rgb(194, 194, 194);
+}
+.download-button{
+    border: 0;
+    margin: 0 0 0 2rem;
+    align-self: flex-end;
+    background-color: transparent;
+    transition: all 0.5s ease-out;
+}
+
+.download-button:hover{
+    color: rgb(31, 31, 31);
+    transform: scale(1.1);
+    cursor: pointer;
+    border: 0;
+}
